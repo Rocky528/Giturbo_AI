@@ -1,0 +1,76 @@
+{
+    "repository_name": "name of the repository",
+    "repository_description": "description of the repository",
+    "classes": [
+      {
+        "class_name": "name of the class",
+        "class_description": "description of the class",
+        "methods": [
+          {
+            "method_name": "name of the method",
+            "method_description": "description of the method",
+            "parameters": [
+              {
+                "parameter_name": "name of the parameter",
+                "parameter_type": "type of the parameter",
+                "parameter_description": "description of the parameter"
+              },
+              ...
+            ],
+            "return_type": "return type of the method",
+            "return_description": "description of the return value"
+          },
+          ...
+        ],
+        "variables": [
+          {
+            "variable_name": "name of the variable",
+            "variable_type": "type of the variable",
+            "variable_description": "description of the variable"
+          },
+          ...
+        ]
+      },
+      ...
+    ],
+    "global_variables": [
+      {
+        "variable_name": "name of the global variable",
+        "variable_type": "type of the global variable",
+        "variable_description": "description of the global variable"
+      },
+      ...
+    ],
+    "dependencies": [
+      {
+        "dependency_name": "name of the dependency",
+        "dependency_version": "version of the dependency"
+      },
+      ...
+    ],
+    "modules": [
+      {
+        "module_name": "name of the module",
+        "module_description": "description of the module",
+        "module_functions": [
+          {
+            "function_name": "name of the function",
+            "function_description": "description of the function",
+            "parameters": [
+              {
+                "parameter_name": "name of the parameter",
+                "parameter_type": "type of the parameter",
+                "parameter_description": "description of the parameter"
+              },
+              ...
+            ],
+            "return_type": "return type of the function",
+            "return_description": "description of the return value"
+          },
+          ...
+        ]
+      },
+      ...
+    ]
+  }
+  

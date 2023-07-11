@@ -1,0 +1,22 @@
+{
+    "Giturbo:int": "Make sure to merge the config file inside the config folder. If it's not merged, create a merge request. Ask the user to add the API key and map the repository using the Ctags function. Commit the new index and map file into the /giturbo_config folder.",
+    "Giturbo:gen": "Provide detailed step by step implmentation for the issue described (issue). Provide information on the problem or feature request , including the specific file(s) involved and any unique attributes of the codebase structure and wait for .",
+    "Giturbo:review": "review this PR request and commits and make sure its bug free and would work without any problem",
+    "Giturbo:databaseField": "Provide the field name and the desired operation (add, modify, delete) for the database.",
+    "Giturbo:newIntegration": "Specify the system or platform to integrate and provide detailed requirements.",
+    "Giturbo:backendOptimizer": "Specify the specific areas or functions in the backend you wish to optimize.",
+    "Giturbo:frontendMinify": "Provide details about the specific frontend files or sections you wish to minify.",
+    "Giturbo:newFeature": "Specify the new feature or component you wish to add and provide detailed specifications.",
+    "Giturbo:securityCheck": "Specify the sections of the codebase you wish to audit for security vulnerabilities.",
+    "Giturbo:unitTest": "Specify the units you wish to test and provide detailed input and expected output.",
+    "Giturbo:codeTranslate": "Specify the current language of the codebase and the desired translation.",
+    "Giturbo:codeReview": "A new code review request has been generated. Provide details regarding the sections of code to be reviewed.",
+    "Giturbo:codeRefactor": "The code for this issue has been flagged for refactoring. Provide detailed specifications on the parts to refactor and the desired improvements.",
+    "Giturbo:bugTriage": "A new bug has been identified. Provide detailed information about the bug, including steps to reproduce, expected results, and actual results.",
+    "Giturbo:dependencyUpdate": "This issue involves updating dependencies. Provide information on which dependencies need to be updated and their new versions.",
+    "Giturbo:documentation": "This issue calls for updates to the documentation. Specify the sections to update and the new information to include.",
+    "Giturbo:performanceOptimization": "This issue suggests performance optimization. Provide specifics on which areas of the codebase need optimization and any suggested techniques to apply.",
+    "Giturbo:accessibilityCheck": "An accessibility check is required for this issue. Specify the parts of the application that need to be checked and any known accessibility issues.",
+    "Giturbo:codeFormatting": "This issue calls for code formatting or linting. Specify the specific files or directories that should be addressed.",
+    "Giturbo:testCoverage": "This issue requires a test coverage report. Specify the code sections for which the coverage report is needed."
+}

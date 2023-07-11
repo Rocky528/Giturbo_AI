@@ -1,0 +1,5 @@
+{
+    "Giturbo:int": "Make sure to merge the config file inside the config folder. If it's not merged, create a merge request. Ask the user to add the API key and map the repository using the Ctags function. Commit the new index and map file into the /giturbo_config folder.",
+    "Giturbo:gen": "Provide detailed step by step implmentation for the issue described (issue). Provide information on the problem or feature request , including the specific file(s) involved and any unique attributes of the codebase structure and wait for .",
+    "Giturbo:review": "review this PR request and commits and make sure its bug free and would work without any problem"
+}
