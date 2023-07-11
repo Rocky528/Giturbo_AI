@@ -1,8 +1,30 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
-defaults:
-  - scope:
-      path: "README.md"
-      type: "pages"
-    values:
-      description: "A github app for coding with GPT"
+# defaults:
+#   - scope:
+#       path: "README.md"
+#       type: "pages"
+#     values:
+#       description: "A github app for coding with GPT"
+
+from github import Github
+
+# Replace with your personal access token
+access_token = "YOUR_ACCESS_TOKEN"
+
+# Replace with the repository details
+owner = "OWNER"
+repo = "REPO"
+
+# Labels to add
+labels = ["Giturbo:int", "Giturbo:gen", "Giturbo:review"]
+
+# Create a PyGithub instance
+g = Github(access_token)
+
+# Get the repository
+repository = g.get_repo(f"{owner}/{repo}")
+
+# Add labels to the repository
+for label in labels:
+    repository.create_label(label, color="f29513")
